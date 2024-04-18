@@ -7,7 +7,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: A brief description of the enhancement you propose, also including what you tried and what worked.
+      description: A brief description of the enhancement you propose, including what you tried and what worked.
     validations:
       required: true
   - type: textarea
