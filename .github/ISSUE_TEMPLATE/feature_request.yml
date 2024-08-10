@@ -2,14 +2,18 @@ name: 💡 General Feature Request
 description: Suggest features, propose improvements, and discuss new ideas!
 title: "[FEATURE] <description>"
 labels: ["enhancement"]
+
 body:
+
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A brief description of the enhancement you propose, including what you tried and what worked.
+      description: Briefly describe the enhancement you propose, including what you tried and what worked.
+      placeholder: "Example: 'When I try to upload large files (over 100MB), the process succeeds but takes more than 10 minutes. This disrupts my workflow and causes delays in my project.'"
     validations:
       required: true
+  
   - type: textarea
     id: tech-notes
     attributes:
@@ -17,10 +21,21 @@ body:
       description: Please add any tech notes related to this feature request
     validations:
       required: false
+  
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or Diagrams
+      description: Add screenshots or diagrams to help us understand the feature request.
+      placeholder: "Attach it here"
+    validations:
+      required: false
+  
   - type: textarea
     id: extra-info
     attributes:
       label: Additional information
       description: Is there anything else we should know about this idea?
+      placeholder: "Describe it here"
     validations:
       required: false
