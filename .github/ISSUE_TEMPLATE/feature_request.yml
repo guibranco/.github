@@ -19,6 +19,7 @@ body:
     attributes:
       label: Tech notes
       description: Please add any tech notes related to this feature request
+      placeholder: "Add some technical details to implement this feature if you already know how to deal with it, or just skip this section."
     validations:
       required: false
   
