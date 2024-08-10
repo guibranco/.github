@@ -10,7 +10,7 @@ body:
     attributes:
       label: Description
       description: "A brief description of the question or issue, also include what you tried and what didn't work"
-       placeholder: "Example: 'When I try to upload a file (over 100MB), the process fails with a timeout error. This disrupts my workflow and causes delays in my project.'"
+      placeholder: "Example: 'When I try to upload a file (over 100MB), the process fails with a timeout error. This disrupts my workflow and causes delays in my project.'"
     validations:
       required: true
       
